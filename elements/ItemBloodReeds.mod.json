@@ -1,0 +1,27 @@
+{
+  "_fv": 3,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "itembloodreeds",
+    "customModelName": "Normal",
+    "name": "Blood Reeds",
+    "creativeTab": {
+      "value": "CUSTOM:TabBloodWorld"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "canBeDroppedAsGrassSeed": false,
+    "droppedAsGrassSeedProbability": 5,
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedOnBlock": {
+      "name": "ItemBloodReedsRightClickedOnBlock"
+    }
+  }
+}

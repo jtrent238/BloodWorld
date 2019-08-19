@@ -1,0 +1,36 @@
+{
+  "_fv": 3,
+  "_type": "plant",
+  "definition": {
+    "texture": "blockbloodreeds",
+    "plantType": "growapable",
+    "growapableSpawnType": "Water",
+    "growapableMaxHeight": 3,
+    "name": "Blood Reeds",
+    "creativeTab": {
+      "value": "CUSTOM:TabBloodWorld"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "enableCustomDrop": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "frequencyOnChunks": 20,
+    "spawnWorldTypes": [
+      "CUSTOM:DimBloodWorld"
+    ],
+    "restricPerBiome": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BiomeBloodWood"
+      }
+    ]
+  }
+}

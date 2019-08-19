@@ -7,6 +7,7 @@ import net.minecraft.nbt.NBTTagCompound;
 public class bloodworldVariables {
 
 	public static boolean isBleeding = false;
+	public static boolean isPurifierRunning = false;
 
 	public static class MapVariables extends WorldSavedData {
 

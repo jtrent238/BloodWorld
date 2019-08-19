@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bloodworld:blocks/blockbloodpurifier_bottom",
+    "up": "bloodworld:blocks/blockbloodpurifier_top",
+    "north": "bloodworld:blocks/blockbloodpurifier_front",
+    "east": "bloodworld:blocks/blockbloodpurifier_side",
+    "south": "bloodworld:blocks/blockbloodpurifier_side",
+    "west": "bloodworld:blocks/blockbloodpurifier_side",
+    "particle": "bloodworld:blocks/blockbloodpurifier_bottom"
+  }
+}

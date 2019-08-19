@@ -29,9 +29,9 @@
     },
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
-    "hasCustomDrop": false,
+    "hasCustomDrop": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:BlockBloodstoneCobble"
     },
     "dropAmount": 1,
     "isBeaconBase": false,

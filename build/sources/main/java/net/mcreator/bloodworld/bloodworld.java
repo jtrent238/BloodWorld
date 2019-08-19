@@ -86,6 +86,21 @@ public class bloodworld implements IFuelHandler, IWorldGenerator {
 		elements.add(new MCreatorFluidBloodUpdateTick(this));
 		elements.add(new MCreatorFuelBlood(this));
 		elements.add(new MCreatorOverlayBleeding(this));
+		elements.add(new MCreatorBlockBloodStoneBrick(this));
+		elements.add(new MCreatorRecipeBloodstoneBrick(this));
+		elements.add(new MCreatorBlockBloodstoneCobble(this));
+		elements.add(new MCreatorRecipeBloodstone(this));
+		elements.add(new MCreatorBlockBloodBlossom(this));
+		elements.add(new MCreatorBlockBloodGrass(this));
+		elements.add(new MCreatorPlantBloodshroom0(this));
+		elements.add(new MCreatorGUIBloodPurifier(this));
+		elements.add(new MCreatorBlockBloodPurifier(this));
+		elements.add(new MCreatorBlockBloodPurifierOnBlockRightClicked(this));
+		elements.add(new MCreatorBlockBloodPurifierUpdateTick(this));
+		elements.add(new MCreatorItemPurfiedBlood(this));
+		elements.add(new MCreatorPlantBloodReeds(this));
+		elements.add(new MCreatorItemBloodReedsRightClickedOnBlock(this));
+		elements.add(new MCreatorItemBloodReeds(this));
 	}
 
 	@Override
@@ -163,11 +178,15 @@ public class bloodworld implements IFuelHandler, IWorldGenerator {
 
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorGUIBloodPurifier.GUIID)
+				return new MCreatorGUIBloodPurifier.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorGUIBloodPurifier.GUIID)
+				return new MCreatorGUIBloodPurifier.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

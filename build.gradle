@@ -9,9 +9,9 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.0.0.0"
-group = "com.jtrent238.bloodworld"
-archivesBaseName = "bloodworld"
+version = "1.0"
+group = "com.yourname.modid"
+archivesBaseName = "modid"
 
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava {

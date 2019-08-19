@@ -6,7 +6,7 @@
       "value": "CUSTOM:BlockBloodDrop"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CRIT"
     },
     "portalLuminance": 0.0,
     "portalSound": {
@@ -37,7 +37,7 @@
       "value": "CUSTOM:FluidBlood"
     },
     "oreBlock": {
-      "value": ""
+      "value": "CUSTOM:BlockBloodStone"
     },
     "airColor": {
       "value": -1351469771,

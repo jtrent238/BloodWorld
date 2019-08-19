@@ -1,0 +1,36 @@
+{
+  "_fv": 3,
+  "_type": "plant",
+  "definition": {
+    "texture": "blockbloodshroom0",
+    "plantType": "normal",
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 3,
+    "name": "Bloodshroom",
+    "creativeTab": {
+      "value": "CUSTOM:TabBloodWorld"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "enableCustomDrop": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "frequencyOnChunks": 20,
+    "spawnWorldTypes": [
+      "CUSTOM:DimBloodWorld"
+    ],
+    "restricPerBiome": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BiomeBloodWood"
+      }
+    ]
+  }
+}

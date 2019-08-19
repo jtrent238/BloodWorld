@@ -36,15 +36,15 @@ public class MCreatorBiomeBloodWood extends bloodworld.ModElement {
 	static class BiomeGenCustom extends Biome {
 
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("BloodWoods").setRainfall(0.5F).setBaseHeight(0.1F).setWaterColor(-8448490).setHeightVariation(0.2F)
+			super(new Biome.BiomeProperties("BloodWoods").setRainfall(0F).setBaseHeight(0.1F).setWaterColor(-8448490).setHeightVariation(0.2F)
 					.setTemperature(0.5F));
 			setRegistryName("biomebloodwood");
 			topBlock = MCreatorBlockBloodSoil.block.getDefaultState();
 			fillerBlock = MCreatorBlockBloodStone.block.getDefaultState();
 			decorator.generateFalls = false;
 			decorator.treesPerChunk = 3;
-			decorator.flowersPerChunk = 10;
-			decorator.grassPerChunk = 10;
+			decorator.flowersPerChunk = 0;
+			decorator.grassPerChunk = 0;
 			decorator.deadBushPerChunk = 0;
 			decorator.mushroomsPerChunk = 0;
 			decorator.bigMushroomsPerChunk = 0;
@@ -52,6 +52,11 @@ public class MCreatorBiomeBloodWood extends bloodworld.ModElement {
 			decorator.cactiPerChunk = 0;
 			decorator.sandPatchesPerChunk = 0;
 			decorator.gravelPatchesPerChunk = 0;
+			this.spawnableMonsterList.clear();
+			this.spawnableCreatureList.clear();
+			this.spawnableWaterCreatureList.clear();
+			this.spawnableCaveCreatureList.clear();
+			this.spawnableCreatureList.add(new SpawnListEntry(MCreatorEntityBloodSucker.EntityCustom.class, 40, 1, 5));
 		}
 
 		@SideOnly(Side.CLIENT)

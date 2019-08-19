@@ -1,0 +1,86 @@
+{
+  "_fv": 3,
+  "_type": "block",
+  "definition": {
+    "texture": "blockbloodpurifier_bottom",
+    "textureTop": "blockbloodpurifier_top",
+    "textureLeft": "blockbloodpurifier_side",
+    "textureFront": "blockbloodpurifier_front",
+    "textureRight": "blockbloodpurifier_side",
+    "textureBack": "blockbloodpurifier_side",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "name": "Blood Purifier",
+    "specialInfo": [],
+    "hardness": 2.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:TabBloodWorld"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": true,
+    "hasCustomDrop": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 10,
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SUSPENDED"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "VAR:isPurifierRunning",
+    "hasInventory": true,
+    "inventorySize": 12,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onRightClicked": {
+      "name": "BlockBloodPurifierOnBlockRightClicked"
+    },
+    "onTickUpdate": {
+      "name": "BlockBloodPurifierUpdateTick"
+    },
+    "spawnWorldTypes": [],
+    "restricPerBiome": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 110
+  }
+}

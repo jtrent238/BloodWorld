@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "bloodworld:blocks/blockbloodshroom0",
+    "particle": "bloodworld:blocks/blockbloodshroom0"
+  }
+}

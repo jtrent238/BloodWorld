@@ -523,7 +523,7 @@ public class MCreatorDimBloodWorld extends bloodworld.ModElement {
 					d2 = pos.getZ() + 0.5D + 0.25D * (double) j;
 					d5 = (double) (rand.nextFloat() * 2.0F * (float) j);
 				}
-				world.spawnParticle(EnumParticleTypes.EXPLOSION_NORMAL, d0, d1, d2, d3, d4, d5);
+				world.spawnParticle(EnumParticleTypes.CRIT, d0, d1, d2, d3, d4, d5);
 			}
 		}
 

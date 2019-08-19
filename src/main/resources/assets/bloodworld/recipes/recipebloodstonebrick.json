@@ -1,0 +1,22 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bloodworld:blockbloodstone"
+    },
+    {
+      "item": "bloodworld:blockbloodstone"
+    },
+    {
+      "item": "bloodworld:blockbloodstone"
+    },
+    {
+      "item": "bloodworld:blockbloodstone"
+    }
+  ],
+  "result": {
+    "item": "bloodworld:blockbloodstonebrick",
+    "count": 1
+  }
+}

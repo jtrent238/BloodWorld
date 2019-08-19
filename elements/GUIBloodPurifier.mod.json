@@ -1,0 +1,158 @@
+{
+  "_fv": 3,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "BlockBloodPurifier",
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inventoryPurifer",
+          "id": 0,
+          "name": "Slot #0",
+          "x": 282,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inventoryPurifer",
+          "id": 1,
+          "name": "Slot #1",
+          "x": 318,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inventoryPurifer",
+          "id": 2,
+          "name": "Slot #2",
+          "x": 354,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inventoryPurifer",
+          "id": 3,
+          "name": "Slot #3",
+          "x": 282,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inventoryPurifer",
+          "id": 4,
+          "name": "Slot #4",
+          "x": 318,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inventoryPurifer",
+          "id": 5,
+          "name": "Slot #5",
+          "x": 354,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inventoryPurifer",
+          "id": 6,
+          "name": "Slot #6",
+          "x": 462,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inventoryPurifer",
+          "id": 7,
+          "name": "Slot #7",
+          "x": 498,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inventoryPurifer",
+          "id": 8,
+          "name": "Slot #8",
+          "x": 534,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inventoryPurifer",
+          "id": 9,
+          "name": "Slot #9",
+          "x": 462,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inventoryPurifer",
+          "id": 10,
+          "name": "Slot #10",
+          "x": 498,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inventoryPurifer",
+          "id": 11,
+          "name": "Slot #11",
+          "x": 534,
+          "y": 132
+        }
+      }
+    ],
+    "inventories": [
+      {
+        "slotAmount": 9,
+        "name": "inventoryPurifer",
+        "dropOnClose": false
+      }
+    ]
+  }
+}
