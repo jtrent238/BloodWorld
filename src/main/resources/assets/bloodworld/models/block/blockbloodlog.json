@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bloodworld:blocks/blockbloodwoodtop",
+    "up": "bloodworld:blocks/blockbloodwoodtop",
+    "north": "bloodworld:blocks/logblood",
+    "east": "bloodworld:blocks/logblood",
+    "south": "bloodworld:blocks/logblood",
+    "west": "bloodworld:blocks/logblood",
+    "particle": "bloodworld:blocks/blockbloodwoodtop"
+  }
+}

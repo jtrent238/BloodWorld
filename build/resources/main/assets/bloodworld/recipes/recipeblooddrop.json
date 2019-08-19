@@ -1,0 +1,16 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "bloodworld:blockblooddrop"
+    }
+  },
+  "result": {
+    "item": "bloodworld:itemdropofblood",
+    "count": 9
+  }
+}

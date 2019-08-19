@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bloodworld:blocks/blood0",
+    "particle": "bloodworld:blocks/blood0"
+  }
+}

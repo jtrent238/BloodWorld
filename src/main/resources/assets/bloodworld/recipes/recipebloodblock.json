@@ -1,0 +1,37 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    },
+    {
+      "item": "bloodworld:itemdropofblood"
+    }
+  ],
+  "result": {
+    "item": "bloodworld:blockblooddrop",
+    "count": 1
+  }
+}

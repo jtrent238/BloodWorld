@@ -1,0 +1,16 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bloodworld:blockbloodwoodplanks"
+    },
+    {
+      "item": "bloodworld:blockbloodwoodplanks"
+    }
+  ],
+  "result": {
+    "item": "bloodworld:itembloodwoodstick",
+    "count": 4
+  }
+}

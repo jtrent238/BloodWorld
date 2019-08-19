@@ -1,0 +1,20 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "bloodworld:itemdropofblood"
+    },
+    "1": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "bloodworld:itemfoodbloodsoup",
+    "count": 1
+  }
+}

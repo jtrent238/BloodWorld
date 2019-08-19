@@ -1,0 +1,65 @@
+{
+  "_fv": 3,
+  "_type": "biome",
+  "definition": {
+    "name": "BloodWoods",
+    "groundBlock": {
+      "value": "CUSTOM:BlockBloodSoil"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:BlockBloodStone"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "treeStructure": "(no schematic)",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "CUSTOM:BlockBloodLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:BlockBloodLeaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -9100252,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10413799,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -8448490,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 10,
+    "flowersPerChunk": 10,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "spawnVillagesInBiome": false,
+    "spawnStrongholdsInBiome": false,
+    "biomeWeight": 0,
+    "biomeType": "WARM",
+    "entityListSpawnType": 0,
+    "spawnList": []
+  }
+}

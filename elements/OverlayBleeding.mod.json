@@ -1,0 +1,9 @@
+{
+  "_fv": 3,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "conditionxml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"condition_input\" deletable\u003d\"false\" x\u003d\"-124\" y\u003d\"11\"\u003e\u003cvalue name\u003d\"CONDITION\"\u003e\u003cblock type\u003d\"variables_get_logic\"\u003e\u003cfield name\u003d\"VAR\"\u003eglobal:isBleeding\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003c/block\u003e\u003c/xml\u003e",
+    "components": []
+  }
+}

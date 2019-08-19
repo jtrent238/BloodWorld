@@ -1,0 +1,21 @@
+{
+  "_fv": 3,
+  "_type": "food",
+  "definition": {
+    "texture": "itembloodsoup",
+    "name": "Blood Drop Soup",
+    "creativeTab": {
+      "value": "CUSTOM:TabBloodWorld"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "hasPotionEffect": false,
+    "isAlwaysEdible": false,
+    "potionEffect": {
+      "value": "SPEED"
+    },
+    "animation": "eat"
+  }
+}

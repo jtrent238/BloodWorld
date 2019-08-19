@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "bloodworld:dimbloodworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "bloodworld:dimbloodworld_portal_ns"
+    },
+    "inventory": {
+      "model": "bloodworld:dimbloodworld_portal_ns"
+    }
+  }
+}

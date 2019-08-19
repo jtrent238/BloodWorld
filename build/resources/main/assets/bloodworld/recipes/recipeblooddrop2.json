@@ -1,0 +1,13 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bloodworld:blockbloodflower"
+    }
+  ],
+  "result": {
+    "item": "bloodworld:itemdropofblood",
+    "count": 1
+  }
+}

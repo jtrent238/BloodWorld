@@ -1,0 +1,27 @@
+{
+  "_fv": 3,
+  "_type": "potion",
+  "definition": {
+    "name": "Bleeding",
+    "effectName": "Bleeding",
+    "icon": "itemblooddrop.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "curativeItems": [
+      {
+        "value": "CUSTOM:ItemBandage"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "PotionBleedingOnPotionActiveTick"
+    }
+  }
+}

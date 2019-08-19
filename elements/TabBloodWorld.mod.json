@@ -1,0 +1,11 @@
+{
+  "_fv": 3,
+  "_type": "tab",
+  "definition": {
+    "name": "Blood World",
+    "icon": {
+      "value": "CUSTOM:BlockBloodLog"
+    },
+    "showSearch": false
+  }
+}
