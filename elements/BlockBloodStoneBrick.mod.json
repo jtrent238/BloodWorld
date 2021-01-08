@@ -1,5 +1,5 @@
 {
-  "_fv": 3,
+  "_fv": 13,
   "_type": "block",
   "definition": {
     "texture": "blockbloodstonebrick",
@@ -11,7 +11,10 @@
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
     "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -24,16 +27,16 @@
     "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:TabBloodWorld"
     },
     "destroyTool": "pickaxe",
-    "affectedBySilkTouch": true,
-    "hasCustomDrop": false,
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
+    "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -43,6 +46,16 @@
       "value": "ROCK"
     },
     "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "STONE"
@@ -57,15 +70,22 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
     "spawnWorldTypes": [],
-    "restricPerBiome": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

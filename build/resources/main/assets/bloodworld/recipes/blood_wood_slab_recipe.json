@@ -1,0 +1,23 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "bloodworld:blockbloodwoodplanks"
+    },
+    "1": {
+      "item": "bloodworld:blockbloodwoodplanks"
+    },
+    "2": {
+      "item": "bloodworld:blockbloodwoodplanks"
+    }
+  },
+  "result": {
+    "item": "bloodworld:blood_wood_slab",
+    "data": 0,
+    "count": 6
+  }
+}

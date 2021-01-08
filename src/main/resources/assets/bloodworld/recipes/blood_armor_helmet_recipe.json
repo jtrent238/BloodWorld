@@ -1,0 +1,29 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bloodworld:blood_ingot"
+    },
+    "1": {
+      "item": "bloodworld:blood_ingot"
+    },
+    "2": {
+      "item": "bloodworld:blood_ingot"
+    },
+    "3": {
+      "item": "bloodworld:blood_ingot"
+    },
+    "5": {
+      "item": "bloodworld:blood_ingot"
+    }
+  },
+  "result": {
+    "item": "bloodworld:blood_armorhelmet",
+    "count": 1
+  }
+}

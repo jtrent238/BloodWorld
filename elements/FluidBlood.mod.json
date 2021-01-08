@@ -1,5 +1,5 @@
 {
-  "_fv": 3,
+  "_fv": 13,
   "_type": "fluid",
   "definition": {
     "name": "FluidBlood",
@@ -11,7 +11,9 @@
     "isGas": false,
     "type": "WATER",
     "generateBucket": true,
+    "frequencyOnChunks": 5,
     "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "onTickUpdate": {
       "name": "FluidBloodUpdateTick"
     }

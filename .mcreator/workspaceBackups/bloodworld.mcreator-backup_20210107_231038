@@ -1,0 +1,882 @@
+{
+  "id_map": {
+    "GUI": 1,
+    "ENTITY": 2,
+    "DIMENSION": 1
+  },
+  "mod_elements": [
+    {
+      "name": "TabBloodWorld",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodLeaves",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodStone",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodSoil",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DimBloodWorld",
+      "type": "dimension",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "BiomeBloodWood",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FluidBlood",
+      "type": "fluid",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodFlower",
+      "type": "plant",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodDrop",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodBlock",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodDrop",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemFoodBloodSoup",
+      "type": "food",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodFlower2",
+      "type": "plant",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodWoodPlanks",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodWoodPlanks",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemBloodWoodStick",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodWoodStick",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PotionBleeding",
+      "type": "potion",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EntityBloodSucker",
+      "type": "mob",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "name": "PotionBleedingOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemBloodOrb",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EntityBloodSuckerPlayerCollidesWithThisMob",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemBandage",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemDropOfBlood",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodDrop2",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodDrop3",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodDropSoup",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockCrustedBlood",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FluidBloodUpdateTick",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuelBlood",
+      "type": "fuel",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OverlayBleeding",
+      "type": "overlay",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodStoneBrick",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodstoneBrick",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodstoneCobble",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeBloodstone",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodBlossom",
+      "type": "plant",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodGrass",
+      "type": "plant",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlantBloodshroom0",
+      "type": "plant",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GUIBloodPurifier",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "BlockBloodPurifier",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBloodPurifierOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockBloodPurifierUpdateTick",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemPurfiedBlood",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlantBloodReeds",
+      "type": "plant",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemBloodReedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemBloodReeds",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemBandageRightClickedInAir",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_bandage_right_clicked_in_air"
+    },
+    {
+      "name": "BloodIngot",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_ingot"
+    },
+    {
+      "name": "BloodOre",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_ore"
+    },
+    {
+      "name": "BloodBlock",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_block"
+    },
+    {
+      "name": "BloodOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_ore_block_recipe"
+    },
+    {
+      "name": "BloodBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_block_ore_recipe"
+    },
+    {
+      "name": "BloodOreSmelting",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_ore_smelting"
+    },
+    {
+      "name": "BloodPickaxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_pickaxe"
+    },
+    {
+      "name": "BloodAxe",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_axe"
+    },
+    {
+      "name": "BloodSword",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_sword"
+    },
+    {
+      "name": "BloodShovel",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_shovel"
+    },
+    {
+      "name": "BloodHoe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_hoe"
+    },
+    {
+      "name": "BloodPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_pickaxe_recipe"
+    },
+    {
+      "name": "BloodAxeRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_axe_recipe"
+    },
+    {
+      "name": "BloodSwordRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_sword_recipe"
+    },
+    {
+      "name": "BloodShovelRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_shovel_recipe"
+    },
+    {
+      "name": "BloodHoeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_hoe_recipe"
+    },
+    {
+      "name": "BloodArmor",
+      "type": "armor",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BloodArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_armor_helmet_recipe"
+    },
+    {
+      "name": "BloodArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_armor_body_recipe"
+    },
+    {
+      "name": "BloodArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_armor_leggings_recipe"
+    },
+    {
+      "name": "BloodArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_armor_boots_recipe"
+    },
+    {
+      "name": "BloodWoodFence",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_fence"
+    },
+    {
+      "name": "BloodWoodSlab",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_slab"
+    },
+    {
+      "name": "BloodWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_fence_recipe"
+    },
+    {
+      "name": "BloodWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_slab_recipe"
+    },
+    {
+      "name": "BloodWoodFenceGate",
+      "type": "block",
+      "sortid": 74,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_fence_gate"
+    },
+    {
+      "name": "BloodWoodDoor",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_door"
+    },
+    {
+      "name": "BloodWoodTrapDoor",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_trap_door"
+    },
+    {
+      "name": "BloodWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_fence_gate_recipe"
+    },
+    {
+      "name": "BloodWoodDoorRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_door_recipe"
+    },
+    {
+      "name": "BloodWoodTrapDoorRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_wood_trap_door_recipe"
+    },
+    {
+      "name": "BlockBloodDropUpdateTick",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_blood_drop_update_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "isBleeding",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "isPurifierRunning",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.itembloodreeds.name": "Blood Reeds",
+      "item.blood_ingot.name": "Blood",
+      "tile.plantbloodshroom0.name": "Bloodshroom",
+      "tile.blockbloodlog.name": "Bloodwood Log",
+      "item.itemdropofblood.name": "Drop of Blood",
+      "tile.blood_wood_door.name": "Blood Wood Door",
+      "item.itembloodorb.name": "Blood Orb",
+      "item.blood_axe.name": "Blood Axe",
+      "item.itempurfiedblood.name": "Purfied Blood",
+      "tile.blockbloodblossom.name": "Blood Blossom",
+      "tile.blood_wood_trap_door.name": "Blood Wood Trap Door",
+      "tile.blood_wood_slab.name": "Blood Wood Slab",
+      "entity.entitybloodsucker.name": "Blood Sucker",
+      "tile.blood_ore.name": "Blood Ore",
+      "item.blood_pickaxe.name": "Blood Pickaxe",
+      "item.itembandage.name": "Bandage",
+      "splash_potion.effect.potionbleeding": "Splash Bleeding",
+      "tile.blockbloodstonebrick.name": "Bloodstone Brick",
+      "tile.blockbloodflower.name": "Blood Flower",
+      "tile.blood_wood_fence.name": "Blood Wood Fence",
+      "item.blood_armorhelmet.name": "Blood Helmet",
+      "effect.potionbleeding": "Bleeding",
+      "itemGroup.tabtabbloodworld": "Blood World",
+      "tile.blood_block.name": "Block of Blood",
+      "item.blood_shovel.name": "Blood Shovel",
+      "item.blood_armorboots.name": "Blood Boots",
+      "tile.blockbloodgrass.name": "Blood Grass",
+      "tile.blockbloodsoil.name": "Bloodsoil",
+      "tile.blockbloodflower2.name": "Blood Rose",
+      "tile.blockbloodwoodplanks.name": "Bloodwood Planks",
+      "tile.plantbloodreeds.name": "Blood Reeds",
+      "tile.blockcrustedblood.name": "Crusted Blood",
+      "tile.blockblooddrop.name": "Block of Blood",
+      "tile.blockbloodstone.name": "Bloodstone",
+      "item.blood_sword.name": "Blood Sword",
+      "item.itembloodwoodstick.name": "Bloodwood Stick",
+      "tile.blockbloodleaves.name": "Bloodwood Leaves",
+      "item.blood_armorbody.name": "Blood Chestplate",
+      "tile.blockbloodpurifier.name": "Blood Purifier",
+      "tile.blood_wood_fence_gate.name": "Blood Wood Fence Gate",
+      "tipped_arrow.effect.potionbleeding": "Arrow of Bleeding",
+      "fluid.fluidblood": "FluidBlood",
+      "tile.blockbloodstonecobble.name": "Bloodstone Cobblestone",
+      "item.blood_armorlegs.name": "Blood Leggings",
+      "potion.effect.potionbleeding": "Bleeding",
+      "item.dimbloodworld.name": "Blood Staff",
+      "item.itemfoodbloodsoup.name": "Blood Drop Soup",
+      "lingering_potion.effect.potionbleeding": "Lingering Bleeding",
+      "item.blood_hoe.name": "Blood Hoe"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "bloodworld",
+    "modName": "BloodWorld",
+    "version": "1.0.0.0",
+    "author": "jtrent238",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

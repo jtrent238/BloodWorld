@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "bloodworld:blood_wood_slab"
+    },
+    "half=top,variant=default": {
+      "model": "bloodworld:blood_wood_slab_top"
+    }
+  }
+}

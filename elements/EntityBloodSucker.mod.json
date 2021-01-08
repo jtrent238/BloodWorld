@@ -1,15 +1,15 @@
 {
-  "_fv": 3,
+  "_fv": 13,
   "_type": "mob",
   "definition": {
     "mobName": "Blood Sucker",
     "mobLabel": "",
-    "mobModelTexture": "entitybloodsucker.png",
     "mobModelName": "ModelBloodSucker",
+    "mobModelTexture": "entitybloodsucker.png",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 0.0,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -3407872,
@@ -43,10 +43,21 @@
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
     "health": 10,
     "xpAmount": 5,
+    "waterMob": false,
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
     "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
     "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
@@ -56,9 +67,6 @@
     "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "CUSTOM:ItemDropOfBlood"
-    },
-    "rareDrop": {
       "value": "CUSTOM:ItemDropOfBlood"
     },
     "livingSound": {
@@ -77,26 +85,26 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "onPlayerCollidesWith": {
       "name": "EntityBloodSuckerPlayerCollidesWithThisMob"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"aitasks_container\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cnext\u003e\u003cblock type\u003d\"wander\"\u003e\u003cfield name\u003d\"speed\"\u003e1\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"look_around\"\u003e\u003cnext\u003e\u003cblock type\u003d\"swim_in_water\"\u003e\u003cnext\u003e\u003cblock type\u003d\"leap_at_target\"\u003e\u003cfield name\u003d\"speed\"\u003e0.8\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"panic_when_attacked\"\u003e\u003cfield name\u003d\"speed\"\u003e1.2\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_action\"\u003e\u003cfield name\u003d\"callhelp\"\u003eFALSE\u003c/field\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e",
+    "aixml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
+    "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
     },
+    "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 3,
     "maxNumberOfMobsPerGroup": 30,
-    "restricSpawnPerBiome": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:BiomeBloodWood"

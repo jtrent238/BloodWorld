@@ -1,18 +1,16 @@
 {
-  "_fv": 3,
+  "_fv": 13,
   "_type": "biome",
   "definition": {
-    "name": "BloodWoods",
+    "name": "Biome Blood Wood",
     "groundBlock": {
       "value": "CUSTOM:BlockBloodSoil"
     },
     "undergroundBlock": {
       "value": "CUSTOM:BlockBloodStone"
     },
-    "generateLakes": false,
     "treeType": 1,
     "vanillaTreeType": "Default",
-    "treeStructure": "(no schematic)",
     "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
@@ -27,7 +25,6 @@
     "treeFruits": {
       "value": "Blocks.AIR"
     },
-    "customColors": true,
     "airColor": {
       "value": -9100252,
       "falpha": 0.0
@@ -36,12 +33,21 @@
       "value": -10413799,
       "falpha": 0.0
     },
+    "foliageColor": {
+      "value": -10413799,
+      "falpha": 0.0
+    },
     "waterColor": {
+      "value": -8448490,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
       "value": -8448490,
       "falpha": 0.0
     },
     "treesPerChunk": 3,
     "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
@@ -49,20 +55,42 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "deadBushesPerChunk": 0,
     "rainingPossibility": 0.0,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": false,
-    "spawnVillagesInBiome": false,
-    "spawnStrongholdsInBiome": false,
     "biomeWeight": 0,
     "biomeType": "WARM",
-    "entityListSpawnType": 2,
-    "spawnList": [
+    "biomeCategory": "NONE",
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "Lakes"
+    ],
+    "spawnEntries": [
       {
-        "value": "CUSTOM:EntityBloodSucker"
+        "entity": {
+          "value": "CUSTOM:EntityBloodSucker"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       }
     ]
   }

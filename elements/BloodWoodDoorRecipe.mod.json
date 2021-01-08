@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlockBloodWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BlockBloodWoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockBloodWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BlockBloodWoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockBloodWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BlockBloodWoodPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloodWoodDoor"
+    },
+    "name": "blood_wood_door_recipe",
+    "namespace": "mod"
+  }
+}

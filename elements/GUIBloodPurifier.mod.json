@@ -1,12 +1,14 @@
 {
-  "_fv": 3,
+  "_fv": 13,
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 352,
-    "height": 332,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "containerBlock": "BlockBloodPurifier",
+    "doesPauseGame": false,
     "components": [
       {
         "type": "inputslot",
@@ -14,11 +16,12 @@
           "inputLimit": {
             "value": ""
           },
-          "inventory": "inventoryPurifer",
           "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 282,
-          "y": 96
+          "x": 141,
+          "y": 48
         }
       },
       {
@@ -27,11 +30,12 @@
           "inputLimit": {
             "value": ""
           },
-          "inventory": "inventoryPurifer",
           "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 318,
-          "y": 96
+          "x": 159,
+          "y": 48
         }
       },
       {
@@ -40,11 +44,12 @@
           "inputLimit": {
             "value": ""
           },
-          "inventory": "inventoryPurifer",
           "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 354,
-          "y": 96
+          "x": 177,
+          "y": 48
         }
       },
       {
@@ -53,11 +58,12 @@
           "inputLimit": {
             "value": ""
           },
-          "inventory": "inventoryPurifer",
           "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 282,
-          "y": 132
+          "x": 141,
+          "y": 66
         }
       },
       {
@@ -66,11 +72,12 @@
           "inputLimit": {
             "value": ""
           },
-          "inventory": "inventoryPurifer",
           "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #4",
-          "x": 318,
-          "y": 132
+          "x": 159,
+          "y": 66
         }
       },
       {
@@ -79,79 +86,79 @@
           "inputLimit": {
             "value": ""
           },
-          "inventory": "inventoryPurifer",
           "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #5",
-          "x": 354,
-          "y": 132
+          "x": 177,
+          "y": 66
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "inventory": "inventoryPurifer",
           "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #6",
-          "x": 462,
-          "y": 96
+          "x": 231,
+          "y": 48
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "inventory": "inventoryPurifer",
           "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #7",
-          "x": 498,
-          "y": 96
+          "x": 249,
+          "y": 48
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "inventory": "inventoryPurifer",
           "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #8",
-          "x": 534,
-          "y": 96
+          "x": 267,
+          "y": 48
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "inventory": "inventoryPurifer",
           "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #9",
-          "x": 462,
-          "y": 132
+          "x": 231,
+          "y": 66
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "inventory": "inventoryPurifer",
           "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #10",
-          "x": 498,
-          "y": 132
+          "x": 249,
+          "y": 66
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "inventory": "inventoryPurifer",
           "id": 11,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #11",
-          "x": 534,
-          "y": 132
+          "x": 267,
+          "y": 66
         }
-      }
-    ],
-    "inventories": [
-      {
-        "slotAmount": 9,
-        "name": "inventoryPurifer",
-        "dropOnClose": false
       }
     ]
   }

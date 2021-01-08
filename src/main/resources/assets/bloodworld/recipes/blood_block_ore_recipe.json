@@ -1,0 +1,13 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bloodworld:blood_block"
+    }
+  ],
+  "result": {
+    "item": "bloodworld:blood_ingot",
+    "count": 9
+  }
+}

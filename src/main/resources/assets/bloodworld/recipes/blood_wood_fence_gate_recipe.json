@@ -1,0 +1,32 @@
+{
+  "group": "bloodworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "bloodworld:itembloodwoodstick"
+    },
+    "1": {
+      "item": "bloodworld:blockbloodwoodplanks"
+    },
+    "2": {
+      "item": "bloodworld:itembloodwoodstick"
+    },
+    "3": {
+      "item": "bloodworld:itembloodwoodstick"
+    },
+    "4": {
+      "item": "bloodworld:blockbloodwoodplanks"
+    },
+    "5": {
+      "item": "bloodworld:itembloodwoodstick"
+    }
+  },
+  "result": {
+    "item": "bloodworld:blood_wood_fence_gate",
+    "count": 1
+  }
+}

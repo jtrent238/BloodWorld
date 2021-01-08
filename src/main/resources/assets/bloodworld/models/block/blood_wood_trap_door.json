@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bloodworld:blocks/blockbloodwoodplanks",
+    "up": "bloodworld:blocks/blockbloodwoodplanks",
+    "north": "bloodworld:blocks/blockbloodwoodplanks",
+    "east": "bloodworld:blocks/blockbloodwoodplanks",
+    "south": "bloodworld:blocks/blockbloodwoodplanks",
+    "west": "bloodworld:blocks/blockbloodwoodplanks",
+    "particle": "bloodworld:blocks/blockbloodwoodplanks"
+  }
+}

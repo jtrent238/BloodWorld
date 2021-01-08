@@ -1,21 +1,23 @@
 {
-  "_fv": 3,
+  "_fv": 13,
   "_type": "food",
   "definition": {
+    "renderType": 0,
     "texture": "itembloodsoup",
+    "customModelName": "Normal",
     "name": "Blood Drop Soup",
+    "rarity": "COMMON",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:TabBloodWorld"
     },
     "stackSize": 64,
     "nutritionalValue": 4,
+    "saturation": 0.30000001192092896,
     "eatingSpeed": 32,
     "forDogs": false,
-    "hasPotionEffect": false,
     "isAlwaysEdible": false,
-    "potionEffect": {
-      "value": "SPEED"
-    },
-    "animation": "eat"
+    "animation": "eat",
+    "hasGlow": false
   }
 }
